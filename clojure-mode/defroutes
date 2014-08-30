@@ -1,0 +1,5 @@
+#name: defroutes
+# --
+(defroutes ${1:routes}
+  (GET "/" [] "")
+  (route/not-found "not found"))
